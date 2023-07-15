@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(41, 50, 67);
+    color: #00C89D;
+}
+
+/* TOP MENU */
+#menutop {
+    background-color: rgb(47, 50, 67);
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    min-height: 10vh;
+}
+
+#weblog {
+    padding-left: 2vw;
+    font: 1.5vw Arial;
+    display: block;
+    width: 10vw;
+    line-height: 10vh;
+    text-decoration: none;
+    color: #00C89D
+}
+
+/* LEFT MENU */
+#menuleft {
+    background-color: rgb(47, 50, 67);
+    position: absolute;
+    top: 10vh;
+    left: 0px;
+    width: 6vw;
+    min-height: 50vh;
+    padding-bottom: 40vh;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#menuleft a {
+    display: block;
+    width: 4vw;
+    height: 4vw;
+    background-color: rgba(240, 248, 255, 0.512);
+    text-decoration: none;
+    color: white;
+
+}
+
+/* MID BOX AND BLOCKS */
+#midflex {
+    position: absolute;
+    display: flex;
+    left: 6vw;
+    top: 10vh;
+    background-color: aqua;
+    width: 90vw;
+    min-height: 90vh;
+}
+
+/* FOOTER */
+#foot {
+    margin-top: 100vh;
+    position: absolute;
+    width: 100vw;
+    height: 20vh;
+}
